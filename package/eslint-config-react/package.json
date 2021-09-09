@@ -1,0 +1,31 @@
+{
+  "name": "@yellfage/eslint-config-react",
+  "version": "1.0.0",
+  "author": "yellfage",
+  "description": "ESLint config for React.js",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellfage/eslint-config.git",
+    "directory": "package/eslint-config-react"
+  },
+  "peerDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@yellfage/eslint-config": "^1.0.0",
+    "eslint": "^7.32.0"
+  }
+}

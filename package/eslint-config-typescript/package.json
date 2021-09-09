@@ -1,0 +1,29 @@
+{
+  "name": "@yellfage/eslint-config-typescript",
+  "version": "1.0.0",
+  "author": "yellfage",
+  "description": "ESLint config for TypeScript",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellfage/eslint-config.git",
+    "directory": "package/eslint-config-typescript"
+  },
+  "peerDependencies": {
+    "@yellfage/eslint-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "eslint": "^7.32.0"
+  }
+}

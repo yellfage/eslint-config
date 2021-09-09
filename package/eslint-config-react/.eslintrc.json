@@ -1,0 +1,11 @@
+{
+  "extends": ["@yellfage/eslint-config", "./index.js"],
+  "parser": "@babel/eslint-parser",
+  "env": { "node": true },
+  "rules": { "no-magic-numbers": "off" },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

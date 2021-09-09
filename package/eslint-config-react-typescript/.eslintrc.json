@@ -1,0 +1,12 @@
+{
+  "extends": ["@yellfage/eslint-config", "./index.js"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": { "node": true },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@yellfage/eslint-config",
+  "version": "1.0.0",
+  "author": "yellfage",
+  "description": "ESLint config",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellfage/eslint-config.git",
+    "directory": "package/eslint-config"
+  },
+  "peerDependencies": {
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10"
+  }
+}
