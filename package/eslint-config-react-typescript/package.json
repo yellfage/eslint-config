@@ -21,9 +21,9 @@
     "@yellfage/eslint-config-react": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^16.7.10",
-    "@types/react": "^17.0.19",
+    "@types/node": "^16.11.9",
+    "@types/react": "^17.0.36",
     "@yellfage/eslint-config": "^1.0.0",
-    "eslint": "^7.32.0"
+    "eslint": "^8.3.0"
   }
 }

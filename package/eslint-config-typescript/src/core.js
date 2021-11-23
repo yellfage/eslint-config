@@ -194,18 +194,23 @@ module.exports = {
         format: ['camelCase'],
       },
       {
-        selector: ['variable'],
-        format: ['camelCase', 'UPPER_CASE'],
+        selector: ['function'],
+        format: ['camelCase', 'PascalCase'],
       },
       {
-        selector: ['typeProperty'],
+        selector: [
+          'variable',
+          'classProperty',
+          'objectLiteralProperty',
+          'typeProperty',
+        ],
         format: ['camelCase', 'UPPER_CASE'],
       },
       {
         selector: ['variable'],
         format: ['PascalCase'],
         types: ['boolean'],
-        prefix: ['is', 'was', 'should', 'has', 'can', 'did', 'will'],
+        prefix: ['is', 'are', 'was', 'should', 'has', 'can', 'did', 'will'],
       },
       {
         selector: ['typeLike', 'enumMember'],
@@ -359,6 +364,7 @@ module.exports = {
         allowLiterals: 'always',
         allowMappedTypes: 'always',
         allowTupleTypes: 'always',
+        allowGenerics: 'always',
       },
     ],
 

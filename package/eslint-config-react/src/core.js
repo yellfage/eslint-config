@@ -13,15 +13,7 @@ module.exports = {
      */
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
-    'react/boolean-prop-naming': [
-      'error',
-      {
-        propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
-        rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
-        message: 'A boolean prop name must have "is" or "has" prefix',
-        validateNested: false,
-      },
-    ],
+    'react/boolean-prop-naming': ['off', {}],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md
     'react/button-has-type': [
